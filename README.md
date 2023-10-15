@@ -21,3 +21,62 @@ The training set includes aspects for each item title, while the quiz set does n
 
 The test set is vital for determining the winners of the project. It will only be distributed to the top-scoring teams after the project's completion. Similar to the quiz set, aspects will not be provided for the test set.
  
+### Setting Up a Virtual Environment and Installing Project Dependencies
+
+Follow these steps to set up a virtual environment for an existing project and install dependencies from a requirements file:
+
+Open a Terminal or Command Prompt:
+
+Open a terminal or command prompt on your computer.
+
+Navigate to the Project Directory:
+
+Use the cd command to navigate to your project directory.
+
+
+`cd path/to/my_project`
+
+#### Create a Virtual Environment:
+
+If you haven't already created a virtual environment, follow these steps to create one:
+
+
+Run the following command to create a virtual environment named "myenv" (you can choose a different name) but First, ensure you have the virtualenv package installed by running:
+
+`pip install virtualenv
+`
+
+Then, create a virtual environment (e.g., "myenv") with this command:
+
+`python -m venv myenv
+`
+
+Activate the virtual environment based on your operating system:
+
+On Windows:
+
+`myenv\Scripts\activate
+`
+On macOS and Linux:
+
+`source myenv/bin/activate`
+
+After activation, your command prompt will reflect the virtual environment's name (e.g., "(myenv)").
+
+Install Project Dependencies from a Requirements File:
+
+Use pip to read the requirements file and install the packages:
+
+`pip install -r requirements.txt
+`
+This command will install all the packages listed in the requirements.txt file into your virtual environment.
+
+Work on Your Project:
+
+Your virtual environment is now active, and you can work on the project using the installed dependencies. Any packages you install or update will be isolated from your system's Python environment.
+
+Deactivate the Virtual Environment:
+
+When you're done working on your project, you can deactivate the virtual environment, returning you to your system's Python environment.
+
+`deactivate`
