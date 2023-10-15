@@ -27,16 +27,11 @@ Follow these steps to set up a virtual environment for an existing project and i
 
 Open a Terminal or Command Prompt:
 
-Open a terminal or command prompt on your computer.
-
-Navigate to the Project Directory:
-
-Use the cd command to navigate to your project directory.
-
+Navigate to the Project Directory, Use the cd command to navigate to your project directory.
 
 `cd path/to/my_project`
 
-#### Create a Virtual Environment:
+### Create a Virtual Environment:
 
 If you haven't already created a virtual environment, follow these steps to create one:
 
@@ -53,29 +48,28 @@ Then, create a virtual environment (e.g., "myenv") with this command:
 
 Activate the virtual environment based on your operating system:
 
-On Windows:
+**On Windows:**
 
 `myenv\Scripts\activate
 `
-On macOS and Linux:
 
-`source myenv/bin/activate`
+**On macOS and Linux:**
 
-After activation, your command prompt will reflect the virtual environment's name (e.g., "(myenv)").
+`source myenv/bin/activate
+`
 
-Install Project Dependencies from a Requirements File:
-
-Use pip to read the requirements file and install the packages:
+After activation, your command prompt will reflect the virtual environment's name (e.g., "(myenv)"). Install Project Dependencies from a Requirements File, Use pip to read the requirements file and install the packages:
 
 `pip install -r requirements.txt
 `
+
 This command will install all the packages listed in the requirements.txt file into your virtual environment.
 
-Work on Your Project:
+#### Work on the Project:
 
 Your virtual environment is now active, and you can work on the project using the installed dependencies. Any packages you install or update will be isolated from your system's Python environment.
 
-Deactivate the Virtual Environment:
+#### Deactivate the Virtual Environment:
 
 When you're done working on your project, you can deactivate the virtual environment, returning you to your system's Python environment.
 
