@@ -74,3 +74,36 @@ Your virtual environment is now active, and you can work on the project using th
 When you're done working on your project, you can deactivate the virtual environment, returning you to your system's Python environment.
 
 `deactivate`
+
+##### Install packages in your conda environment.
+
+Create your conda environment and ensure you have the following packages and dependencies before running project. (Virtual Environment and Google Collab were used by team members for the project). In Google collab run `!pip install {package}`
+
+packages:
+pandas
+nltk
+matplotlib
+collections  
+seaborn 
+wordcloud 
+random
+pytorch-transformers
+seqeval
+seqeval.metrics
+torch.nn.functional
+sklearn
+numpy
+
+dependencies:
+nltk.tokenize.word_tokenize
+nltk.tokenize.sent_tokenize
+nltk.corpus.stopwords
+matplotlib.pyplot
+Counter
+WordCloud
+os
+f1_score
+classification_report
+accuracy_score
+metrics
+confusion_matrix
